@@ -1,0 +1,204 @@
+
+
+/* Estilo para a barra de navegação */
+.social-nav {
+    background-color: rgb(7 53 42);
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 10px 50px;
+    
+}
+
+.social-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social-nav ul li {
+    margin: 0 5px;
+}
+
+.social-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+    flex-wrap: wrap;
+}
+
+.social-nav ul li a:hover {
+    color: #ddd;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 187, 143);
+}
+
+header {
+    background-color: #f9f9f9;
+    border-bottom: 3px solid #0e5399;
+    color: black;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 5px 50px;
+}
+
+.logo img {
+    height: auto;
+    max-width: 250px ;
+    justify-content: flex-start;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-left: 100px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #f9f9f9;
+    color: black;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Estilo para login*/
+
+
+.body_login {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.img-fundo{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+input {
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
+    max-width: 600px;
+}
+
+button {
+    padding: 15px;
+    border: none;
+    background-color: dodgerblue;
+    font-size: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    transition: all 300ms ease;
+}
+
+button:hover{
+    background-color: deepskyblue;
+    cursor: pointer;
+}
+
+.container {
+    background-color:rgba(0, 0, 0, 0.4);
+    padding: 50px;
+    border-radius: 15px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+div a {
+    text-decoration: none;
+    color: #fff;
+}
+
+div a:hover {
+    text-decoration:underline;
+}
+
+.container-cadastro {
+    background-color:rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 800px;
+    width: 80%;
+}
+
+.container-cadastro input {
+    width: 80%;
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.container-cadastro h1 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.container-cadastro button {
+    width: 25%;
+}
+
+.container-box {
+    display: flex;
+    width: 84%;
+    max-width: 630px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.container-box input {
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
+    max-width: 275px;
+}
+
+@media screen and (max-width: 900px) {
+    .container-box input[type="tel"], .bairro {
+        margin-bottom: 20px;
+	
+}
+
